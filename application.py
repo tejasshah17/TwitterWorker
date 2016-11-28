@@ -28,8 +28,6 @@ try:
 
                 response = json.loads(json.dumps(alchemy_language.sentiment(text=data, language='english')))
 
-                #print response
-
                 sentiment = response['docSentiment']['type']
                 #sentiment = 'positive'
 
